@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Session 5 Activity</title>
+	</head>
+	<body>
+		<header>
+		<h1 align="left"><strong>Zuitt IT Solutions</strong></h1>
+		<h2 align="left"><strong>Products Offered</strong></h2>
+		</header>
+
+	<section>
+		<!-- PRODUCTS OFFERED TABLE -->
+		<table border="1">
+				<thead>
+				<th>Package</th>
+				<th>Price</th>
+				<th>Description</th>
+			</thead>
+			<tbody>
+				<tr>
+					
+					<th>Basic</th>
+					<td>&#8369; 500.00</td>
+					<td>Package includes a fully functional website with desired specifications</td>
+				</tr>
+
+				<tr>
+				<th>Premium</th>
+				<td>&#8369; 1000.00</td>
+				<td>Enjoy all the benefits of the basic packge and also includes site support and maintainance.</td>
+				</tr>
+
+				<tr>
+					<th colspan="3">Additional features after initial project is inclusive of charges.</th>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+	</section>
+
+	<section>
+	<!-- CONTACT FORM -->
+	<h2><strong>Contact Form</strong></h2>
+	<!-- FIRST NAME -->
+	<form action="/contact.html" method="get" autocomplete="on">
+	<label for="first_name">First Name:</label>
+	<br>
+	<input type="text" id="first_name" required autocomplete>
+	<!-- LAST NAME -->
+	<br>
+	<label for="last_name">Last Name:</label>
+	<br>
+	<input type="text" id="last_name" required autocomplete>
+	<br>
+	<!-- EMAIL -->
+	<label for="email">Email:</label>
+	<br>
+	<input type="text" id="email" required autocomplete>
+	<br>
+	<!-- CONTACT NUMBER -->
+	<label for="contact_number">Contact Number:</label>
+	<br>
+	<input type="text" id="contact_number" required autocomplete>
+	<br>
+	<!-- SERVICE TYPE -->
+	<label for="service_type">Service Type:</label>
+	<br>
+		<select name="service_type" id="service" required autocomplete>
+			<option value="front_end_programming" required autocomplete>Front End Programming</option>
+			<option value="back_end_programming" required autocomplete>Back End Programming</option>
+			<option value="fullstack_programming" required autocomplete>Full Stack Programming</option>
+		</select>
+	<br>
+	<!-- PREFERRED CONTACT -->
+	<label>Preferred Contact:</label>
+	<br>
+	<input type="checkbox" name="email" id="email" value="email">
+	<label for="email">Email</label>
+	<br>
+	<input type="checkbox" name="phone" id="phone" value="phone">
+	<label for="phone">Phone</label>
+	<br>
+	<!-- PACKAGE -->
+	<label>Package:</label>
+	<br>
+	<input type="radio" name="new_user" value="yes">
+	<label for="basic">Basic</label>
+	<br>
+	<input type="radio" name="new_user" value="no">
+	<label for="premium">Premium</label>
+	<br>
+	<!-- MESSAGE -->
+	<label for="notes">Message</label>
+	<br>
+	<textarea id="message" cols="30" rows="10" style="resize: none"></textarea>
+	<br>
+	<!-- INQUIRY BUTTON -->
+	<button type="send_inquiry">Send Inquiry</button>
+	<br>
+	<!-- RESET BUTTON -->
+	<button type="reset">Reset</button>
+	<br>
+	</form>
+	</section>
+
+	</body>
+</html>
